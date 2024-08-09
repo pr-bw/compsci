@@ -27,6 +27,10 @@ print(x)
 x//=3
 print(x)
 
+# modulo
+x%=2
+print(x)
+
 # bitwise or
 a = True
 a |= False
