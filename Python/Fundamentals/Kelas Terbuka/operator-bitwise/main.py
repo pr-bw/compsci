@@ -21,3 +21,12 @@ print("Hasil bitwise xor", hasil, "=\t", format(hasil, '08b'))
 # 4.) bitwise not
 hasil = ~ x
 print("Hasil bitwise not dari", x, "=", format(hasil & 0xFF, '08b'))
+print("Hasil bitwise not dari", x, "=", format(hasil & 0xFF, '08b'))
+
+# 5.) bitwise shift left
+hasil = y << 2
+print("Hasil bitwise shift left dari", y, "=", format(hasil, '08b'))
+
+# 6.) bitwise shift right
+hasil = x >> 2
+print("Hasil bitwise shift right dari", x, "=", format(hasil, '08b'))
